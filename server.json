@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "com.amotionsinc/amotions-mcp",
+  "title": "Amotions AI Sales Coach",
+  "description": "Read-only MCP connector for Amotions AI call scores, coaching focus areas, and transcripts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://amotionsinc.com/integrations",
+  "repository": {
+    "url": "https://github.com/Amotions/amotions-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://amotionsinc.com/mcp"
+    }
+  ]
+}
